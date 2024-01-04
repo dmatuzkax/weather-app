@@ -39,7 +39,7 @@ select.addEventListener('change', function() {
 
   const parsedArray = JSON.parse(arrayAsString);
 
-  const baseUrl = 'http://www.7timer.info/bin/api.pl';
+  const baseUrl = 'https://www.7timer.info/bin/api.pl';
 
   const searchParams = {
     lon: parsedArray[0],
